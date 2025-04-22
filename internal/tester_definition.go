@@ -20,25 +20,25 @@ var testerDefinition = tester_definition.TesterDefinition{
 	ExecutableFileName: "your_program.sh",
 	TestCases: []tester_definition.TestCase{
 		{
-			Slug:     "si0",
+			Slug:     "qc6",
 			TestFunc: test1,
 		},
 		{
-			Slug:     "xt9",
+			Slug:     "zo3",
 			TestFunc: test2,
 		},
 		{
-			Slug:     "wd4",
+			Slug:     "xs2",
 			TestFunc: test3,
 			Timeout:  20 * time.Second,
 		},
 		{
-			Slug:     "zz5",
+			Slug:     "ix8",
 			TestFunc: test4,
 			Timeout:  20 * time.Second,
 		},
 		{
-			Slug:     "gd8",
+			Slug:     "dx9",
 			TestFunc: test5,
 			Timeout:  20 * time.Second,
 		},

@@ -29,10 +29,10 @@ update_tester_utils:
 test_bot: build
 	CODECRAFTERS_REPOSITORY_DIR=./internal/test_helpers/scenarios/test_bot \
 	CODECRAFTERS_TEST_CASES_JSON="[ \
-		{\"slug\":\"si0\",\"tester_log_prefix\":\"stage_1\",\"title\":\"Stage #2: Respond to move request\"}, \
-		{\"slug\":\"xt9\",\"tester_log_prefix\":\"stage_2\",\"title\":\"Stage #3: Respond with an opening\"}, \
-		{\"slug\":\"wd4\",\"tester_log_prefix\":\"stage_3\",\"title\":\"Stage #4: Bratko-Kopek test\"}, \
-		{\"slug\":\"zz5\",\"tester_log_prefix\":\"stage_4\",\"title\":\"Stage #5: Win at Chess\"}, \
-		{\"slug\":\"gd8\",\"tester_log_prefix\":\"stage_5\",\"title\":\"Stage #6: Make a move\"} \
+		{\"slug\":\"qc6\",\"tester_log_prefix\":\"stage_1\",\"title\":\"Stage #2: Respond to move request\"}, \
+		{\"slug\":\"zo3\",\"tester_log_prefix\":\"stage_2\",\"title\":\"Stage #3: Respond with an opening\"}, \
+		{\"slug\":\"xs2\",\"tester_log_prefix\":\"stage_3\",\"title\":\"Stage #4: Bratko-Kopek test\"}, \
+		{\"slug\":\"ix8\",\"tester_log_prefix\":\"stage_4\",\"title\":\"Stage #5: Win at Chess\"}, \
+		{\"slug\":\"dx9\",\"tester_log_prefix\":\"stage_5\",\"title\":\"Stage #6: Make a move\"} \
 	]" \
 	$(shell pwd)/dist/main.out
